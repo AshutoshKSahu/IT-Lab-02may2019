@@ -1,0 +1,34 @@
+<html>
+<body>
+<form action=admin.php method=post>
+<center>
+<h1>Admin Management</h1><br>
+<br>
+<h2>Add Candidate</h2>
+ID:<input type=text name=cid id=cid><br><br>
+Name:<input type=text name=cname id=cname><br><br>
+<input type=submit value=Add>
+</center>
+</form>
+<hr>
+<center>
+<form action=adminc.php method=post>
+<h2>View Counts</h2>
+<input type=submit value=Check>
+</form>
+</center>
+<hr><br>
+<center>
+<h2>Declare Result</h2>
+<form action=admind.php method=post>
+Candidate Id:<input type=text name=cid id=cid>
+<br>
+<br>
+Candidate Name:<input type=text name=cname id=cname><br><br>
+<input type=submit value=Declare>
+</form><br><br>
+<input type=button value=Logout onclick="location='login.html'">
+</center>
+</body>
+</html>
+
