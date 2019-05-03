@@ -6,8 +6,8 @@
 <h1>Admin Management</h1><br>
 <br>
 <h2>Add Candidate</h2>
-ID:<input type=text name=cid id=cid><br><br>
-Name:<input type=text name=cname id=cname><br><br>
+ID:<input type=text name=cid id=cid required><br><br>
+Name:<input type=text name=cname id=cname required><br><br>
 <input type=submit value=Add>
 </center>
 </form>
@@ -26,10 +26,10 @@ Name:<input type=text name=cname id=cname><br><br>
 <center>
 <h2>Declare Result</h2>
 <form action=admind.php method=post>
-Candidate Id:<input type=text name=cid id=cid>
+Candidate Id:<input type=text name=cid id=cid required>
 <br>
 <br>
-Candidate Name:<input type=text name=cname id=cname><br><br>
+Candidate Name:<input type=text name=cname id=cname required><br><br>
 <input type=submit value=Declare>
 </form><br>
 <input type=button value=Logout onclick="location='login.html'">
