@@ -1,5 +1,6 @@
 <html>
 <body>
+<div style="background-color:lightblue;border:2px solid black;">
 <form action=admin.php method=post>
 <center>
 <h1>Admin Management</h1><br>
@@ -10,14 +11,18 @@ Name:<input type=text name=cname id=cname><br><br>
 <input type=submit value=Add>
 </center>
 </form>
+</div>
 <hr>
+<div style="background-color:lightgreen;border:2px solid black;">
 <center>
 <form action=adminc.php method=post>
 <h2>View Counts</h2>
 <input type=submit value=Check>
 </form>
 </center>
-<hr><br>
+</div>
+<hr>
+<div style="background-color:lightblue;border:2px solid black;padding:10px;">
 <center>
 <h2>Declare Result</h2>
 <form action=admind.php method=post>
@@ -26,9 +31,9 @@ Candidate Id:<input type=text name=cid id=cid>
 <br>
 Candidate Name:<input type=text name=cname id=cname><br><br>
 <input type=submit value=Declare>
-</form><br><br>
+</form><br>
 <input type=button value=Logout onclick="location='login.html'">
 </center>
+</div>
 </body>
 </html>
-
